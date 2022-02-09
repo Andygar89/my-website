@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/api/nft.js"
+        },
+        {
+        	"src": "/mint",
+        	"dest": "/api/mint.js"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.png" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Naked NFTs" />
+    <meta
+      name="description"
+      content="Discover & collect NFTs in—what will be—the world’s first cross-chain marketplace, supporting SOL, ETH, ADA, and more. Early 2022."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nakednfts.io/" />
+    <meta property="og:title" content="Naked NFTs | Marketplace" />
+    <meta
+      property="og:description"
+      content="Discover & collect NFTs in—what will be—the world’s first cross-chain marketplace, supporting SOL, ETH, ADA, and more. Early 2022."
+    />
+    <meta property="og:image" content="https://www.nakednfts.io/images/meta-cover-v2.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nakednfts" />
+    <meta name="twitter:url" content="https://nakednfts.io/" />
+    <meta name="twitter:title" content="Naked NFTs | Marketplace" />
+    <meta
+      property="twitter:description"
+      content="Discover & collect NFTs in—what will be—the world’s first cross-chain marketplace, supporting SOL, ETH, ADA, and more. Early 2022."
+    />
+    <meta name="twitter:image" content="https://www.nakednfts.io/images/meta-cover-v2.png" />
+
+    <title>Naked NFTs | Marketplace</title>
+    <link rel="preload" href="/font/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <!-- <link rel="preload" href="/font/Inter-italic.var.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="/font/inter.css" />
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@solana/spl-token@0.1.8/lib/index.iife.js"
+      integrity="sha256-EKTEm0ROqj/PnDso+ZKsU7O4/35Cx49TtR2Br2NVSw8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.usefathom.com/script.js" data-spa="auto" data-site="ETXCQZME" defer></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="text/javascript">
+      !(function (e, t, n) {
+        function a() {
+          var e = t.getElementsByTagName('script')[0],
+            n = t.createElement('script');
+          (n.type = 'text/javascript'),
+            (n.async = !0),
+            (n.src = 'https://beacon-v2.helpscout.net'),
+            e.parentNode.insertBefore(n, e);
+        }
+        if (
+          ((e.Beacon = n =
+            function (t, n, a) {
+              e.Beacon.readyQueue.push({ method: t, options: n, data: a });
+            }),
+          (n.readyQueue = []),
+          'complete' === t.readyState)
+        )
+          return a();
+        e.attachEvent ? e.attachEvent('onload', a) : e.addEventListener('load', a, !1);
+      })(window, document, window.Beacon || function () {});
+    </script>
+    <script type="text/javascript">
+      window.Beacon('init', 'cf6c270e-a60d-4241-af97-212d7c7b7ee1');
+    </script>
+  </body>
+</html>
